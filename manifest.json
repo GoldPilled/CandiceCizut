@@ -1,0 +1,168 @@
+{
+  "name": "Candice Cizut's Awakening Alliance",
+  "short_name": "Awakening Alliance",
+  "description": "Unlock hidden secrets of power, wealth & awakening with Candice Cizut.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#E8C547",
+  "theme_color": "#E8C547",
+  "orientation": "portrait-primary",
+  "categories": [
+    "occult",
+    "awakening",
+    "wealth",
+    "education",
+    "lifestyle",
+    "spirituality",
+    "conspiracy",
+    "coach",
+    "psychology",
+    "metaphysics",
+    "money",
+    "secret societies",
+    "illuminati"
+  ],
+  "icons": [
+    {
+      "src": "/assets/images/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/favicon/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/favicon/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Go to the homepage",
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Secrets of Awakening",
+      "short_name": "Secrets",
+      "description": "Explore hidden secrets",
+      "url": "/secrets.html",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Read the latest insights and secrets",
+      "url": "/blog.html",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "Learn more about Candice Cizut",
+      "url": "/about.html",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch with Candice Cizut",
+      "url": "/contact.html",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Download - To Hell With Sorry eBook",
+      "short_name": "eBook",
+      "description": "Download the 'To Hell With Sorry' eBook",
+      "url": "/To_Hell_With_Sorry.pdf",
+      "icons": [
+        {
+          "src": "/assets/images/favicon/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshots/screenshot1.png",
+      "sizes": "640x480",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/screenshots/screenshot2.png",
+      "sizes": "640x480",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/screenshots/screenshot1.avif",
+      "sizes": "640x480",
+      "type": "image/avif"
+    },
+    {
+      "src": "/assets/images/screenshots/screenshot2.avif",
+      "sizes": "640x480",
+      "type": "image/avif"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://moneymystic.codes/"
+    }
+  ],
+  "prefer_related_applications": false,
+  "id": "/manifest.json"
+}
