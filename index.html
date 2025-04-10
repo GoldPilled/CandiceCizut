@@ -120,44 +120,19 @@
     <link rel="preload" href="/css/fontawesome.min.css" as="style">
     <!-- Inline Critical CSS -->
     <style>
-        /* Critical CSS for LCP improvement */
-        body {
-            font-family: 'Inter', sans-serif;
-            color: #000;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: 'Playfair Display', serif;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-top: 0.5em;
-        }
-
+        /* Minimal critical CSS just for LCP element */
         #hero {
-            padding: 50px 20px;
-            text-align: center;
+          padding: 50px 20px;
+          text-align: center;
+          font-family: 'Playfair Display', serif;
         }
-
-        h3.highlight {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: #ff5733;
+      
+        #hero h2 {
+          font-size: 2em;
+          margin-top: 0.5em;
+          font-family: 'Playfair Display', serif;
         }
-
-        .spots-left {
-            font-weight: 700;
-            font-size: 1.2em;
-            color: #f1db13;
-        }
-    </style>
+      </style>      
     <!-- Load Non-Critical CSS Asynchronously -->
     <link rel="stylesheet" href="/css/fontawesome.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/css/brands.min.css" media="print" onload="this.media='all'">
