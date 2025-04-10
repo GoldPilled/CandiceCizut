@@ -17,19 +17,17 @@
     <!-- Security Headers -->
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self';
-        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://mc.yandex.ru https://mc.yandex.com https://www.googletagmanager.com;
-        img-src 'self' https://mc.yandex.ru https://mc.yandex.com https://www.google-analytics.com data:;
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com;
+        img-src 'self' https://www.google-analytics.com data:;
         style-src 'self' 'unsafe-inline';
-        connect-src 'self' https://mc.yandex.ru https://mc.yandex.com https://www.google-analytics.com;
+        connect-src 'self' https://www.google-analytics.com;
         font-src 'self';
         object-src 'none';
         base-uri 'self';
         form-action 'self';
         upgrade-insecure-requests;
-        frame-src 'self' https://mc.yandex.ru https://mc.yandex.com;"
-        worker-src 'self' https://mc.yandex.com;
+        frame-src 'self';"
     >
-
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta name="format-detection" content="telephone=no">
@@ -519,23 +517,6 @@
               </p>
         </footer>
     </div>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-    
-        ym(100950460, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/100950460" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>
