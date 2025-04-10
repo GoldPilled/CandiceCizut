@@ -17,7 +17,7 @@
     <!-- Security Headers -->
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self';
-        script-src 'self' 'unsafe-inline' https://mc.yandex.ru https://mc.yandex.com https://www.googletagmanager.com;
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://mc.yandex.ru https://mc.yandex.com https://www.googletagmanager.com;
         img-src 'self' https://mc.yandex.ru https://mc.yandex.com https://www.google-analytics.com data:;
         style-src 'self' 'unsafe-inline';
         connect-src 'self' https://mc.yandex.ru https://mc.yandex.com https://www.google-analytics.com;
@@ -27,7 +27,9 @@
         form-action 'self';
         upgrade-insecure-requests;
         frame-src 'self' https://mc.yandex.ru https://mc.yandex.com;"
+        worker-src 'self' https://mc.yandex.com;
     >
+
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta name="format-detection" content="telephone=no">
@@ -320,7 +322,7 @@
                 Illumination</h2>
 
             <h3 class="highlight">Discover the knowledge that frees you from the Matrix. Take control of your reality
-                today. <span class="spots-left"> - 8 Spots Left</span </h3>
+                today. <span class="spots-left"> - 6 Spots Left</span </h3>
         </section>
         <div class="divider"></div>
         <section id="intrigue">
