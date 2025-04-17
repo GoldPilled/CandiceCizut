@@ -119,7 +119,62 @@
     <!-- Preload Font Awesome CSS as style -->
     <link rel="preload" href="/css/fontawesome.min.css" as="style">
     <!-- Inline Critical CSS -->
-    
+    <style>
+      /* Minimal critical CSS just for LCP element */
+      #hero h1 {
+          font-size: 2em;
+          margin-top: 0.5em;
+          font-family: 'Playfair Display', serif;
+      }
+
+      .nav-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+      }
+
+      .nav-links {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 10px;
+      }
+
+      .nav-links a {
+          text-decoration: none;
+          color: #fff;
+          padding: 5px 10px;
+      }
+
+      .social-icons {
+          display: flex;
+          gap: 10px;
+          justify-content: space-around;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 100%;
+          padding: 20px;
+      }
+
+      .social-icons a {
+          margin: 0 5px;
+          color: #000;
+          font-size: 1.2rem;
+      }
+
+      @media (max-width: 768px) {
+          .nav-links {
+              flex-direction: column;
+              align-items: center;
+          }
+
+          .nav-links a {
+              margin: 5px 0;
+          }
+      }
+  </style>
     <!-- Load Non-Critical CSS Asynchronously -->
     <link rel="stylesheet" href="/css/fontawesome.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/css/brands.min.css" media="print" onload="this.media='all'">
