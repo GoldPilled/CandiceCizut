@@ -119,13 +119,30 @@
     <!-- Preload Font Awesome CSS as style -->
     <link rel="preload" href="/css/fontawesome.min.css" as="style">
     <!-- Inline Critical CSS -->
+    
     <style>
-        /* Minimal critical CSS just for LCP element */
-        #hero h1 {
-            font-size: 2em;
-            margin-top: 0.5em;
-            font-family: 'Playfair Display', serif;
-        }
+        /* Full critical LCP block */
+      @font-face {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-style: normal;
+        src: url('/webfonts/playfair-display-v37-latin-700.woff2') format('woff2');
+        font-display: swap;
+      }
+    
+      #hero {
+        padding: 1.5rem 1rem;
+        text-align: center;
+      }
+    
+      #hero h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
 
         .nav-container {
             display: flex;
@@ -164,6 +181,9 @@
         }
 
         @media (max-width: 768px) {
+              #hero h1 {
+              font-size: 2rem;
+            }
             .nav-links {
                 flex-direction: column;
                 align-items: center;
