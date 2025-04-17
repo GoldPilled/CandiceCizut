@@ -7,6 +7,7 @@
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
   "background_color": "#E8C547",
   "theme_color": "#E8C547",
   "orientation": "portrait-primary",
@@ -27,30 +28,30 @@
   ],
   "icons": [
     {
-      "src": "/assets/images/favicon/android-chrome-192x192.png",
+      "src": "/assets/images/favicon/android-chrome-192x192.png?v=2",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/favicon/android-chrome-512x512.png",
+      "src": "/assets/images/favicon/android-chrome-512x512.png?v=2",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/favicon/apple-touch-icon.png",
+      "src": "/assets/images/favicon/apple-touch-icon.png?v=2",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/favicon/favicon-96x96.png",
+      "src": "/assets/images/favicon/favicon-96x96.png?v=2",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/favicon/apple-icon-144x144.png",
+      "src": "/assets/images/favicon/apple-icon-144x144.png?v=2",
       "sizes": "144x144",
       "type": "image/png"
     }
@@ -59,100 +60,120 @@
     {
       "name": "Home",
       "short_name": "Home",
-      "description": "Go to the homepage",
+      "description": "Return to the homepage and reset your journey.",
       "url": "/index.html",
-      "icons": [
-        {
-          "src": "/assets/images/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Secrets of Awakening",
-      "short_name": "Secrets",
-      "description": "Explore hidden secrets",
-      "url": "/secrets.html",
-      "icons": [
-        {
-          "src": "/assets/images/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Blog",
-      "short_name": "Blog",
-      "description": "Read the latest insights and secrets",
-      "url": "/blog.html",
-      "icons": [
-        {
-          "src": "/assets/images/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "About",
       "short_name": "About",
-      "description": "Learn more about Candice Cizut",
+      "description": "Discover Candice Cizut's mission and philosophy.",
       "url": "/about.html",
-      "icons": [
-        {
-          "src": "/assets/images/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Uncover deeper insights and hidden knowledge.",
+      "url": "/blog.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Bitcoin",
+      "short_name": "Bitcoin",
+      "description": "Understand the power of decentralized wealth.",
+      "url": "/bitcoin.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Contact",
       "short_name": "Contact",
-      "description": "Get in touch with Candice Cizut",
+      "description": "Reach out to Candice directly for guidance.",
       "url": "/contact.html",
-      "icons": [
-        {
-          "src": "/assets/images/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
     },
     {
-      "name": "Download - To Hell With Sorry eBook",
+      "name": "Secrets of Awakening",
+      "short_name": "Secrets",
+      "description": "Access truths hidden from the mainstream.",
+      "url": "/secrets.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Download – eBook",
       "short_name": "eBook",
-      "description": "Download the 'To Hell With Sorry' eBook",
+      "description": "Free download of 'To Hell With Sorry'.",
       "url": "/To_Hell_With_Sorry.pdf",
-      "icons": [
-        {
-          "src": "/assets/images/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Self Help is a Lie",
+      "short_name": "Self Help Lie",
+      "description": "Why the self-help industry keeps you stuck.",
+      "url": "/blogposts/self-help-is-a-lie.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Is Money Evil or Energy?",
+      "short_name": "Money Energy",
+      "description": "Money’s spiritual essence revealed.",
+      "url": "/blogposts/is-money-evil-or-energy.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Ready to Awaken?",
+      "short_name": "Awaken",
+      "description": "Feeling the pull to higher awareness?",
+      "url": "/blogposts/ready-to-awaken.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Religion, School & Enslavement",
+      "short_name": "System Trap",
+      "description": "The control matrix exposed.",
+      "url": "/blogposts/religion-school-enslavement.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Bitcoin, Crypto, Blockchain",
+      "short_name": "Crypto",
+      "description": "Tools of modern sovereignty.",
+      "url": "/blogposts/bitcoin-crypto-blockchain.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Real Ascension is Internal",
+      "short_name": "Ascension",
+      "description": "Ascend through inner alchemy.",
+      "url": "/blogposts/real-ascension-is-internal.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Spiritual Awakening Signs",
+      "short_name": "Awakening Signs",
+      "description": "Subtle signs you’re waking up.",
+      "url": "/blogposts/spiritual-awakening-signs.html",
+      "icons": [{ "src": "/assets/images/favicon/android-chrome-192x192.png?v=2", "sizes": "192x192", "type": "image/png" }]
     }
   ],
   "screenshots": [
     {
-      "src": "/assets/images/screenshots/screenshot1.png",
+      "src": "/assets/images/screenshots/screenshot1.png?v=2",
       "sizes": "640x480",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/screenshots/screenshot2.png",
+      "src": "/assets/images/screenshots/screenshot2.png?v=2",
       "sizes": "640x480",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/screenshots/screenshot1.avif",
+      "src": "/assets/images/screenshots/screenshot1.avif?v=2",
       "sizes": "640x480",
       "type": "image/avif"
     },
     {
-      "src": "/assets/images/screenshots/screenshot2.avif",
+      "src": "/assets/images/screenshots/screenshot2.avif?v=2",
       "sizes": "640x480",
       "type": "image/avif"
     }

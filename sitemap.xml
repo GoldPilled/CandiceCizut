@@ -23,13 +23,7 @@
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://moneymystic.codes/secrets.html</loc>
-        <lastmod>2025-04-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <url>
-        <loc>https://moneymystic.codes/crypto.html</loc>
+        <loc>https://moneymystic.codes/bitcoin.html</loc>
         <lastmod>2025-04-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -40,14 +34,63 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
+    <url>
+        <loc>https://moneymystic.codes/secrets.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
 
-    <!-- Direct Download -->
+    <!-- Blog Pages -->
+    <url>
+        <loc>https://moneymystic.codes/blogposts/self-help-is-a-lie.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moneymystic.codes/blogposts/is-money-evil-or-energy.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moneymystic.codes/blogposts/ready-to-awaken.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moneymystic.codes/blogposts/religion-school-enslavement.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moneymystic.codes/blogposts/bitcoin-crypto-blockchain.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moneymystic.codes/blogposts/real-ascension-is-internal.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moneymystic.codes/blogposts/spiritual-awakening-signs.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Direct Download (Optional) -->
     <url>
         <loc>https://moneymystic.codes/To_Hell_With_Sorry.pdf</loc>
         <lastmod>2025-04-17</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.4</priority>
     </url>
 
 </urlset>
-

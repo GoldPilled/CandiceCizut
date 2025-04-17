@@ -1,43 +1,48 @@
 # robots.txt for Candice Cizut's Awakening Alliance
-# Last updated: 2025-04-05
+# Last updated: 2025-04-17
 
 User-agent: *
+# Allow all general content
 Allow: /
 
-# Block access to sensitive or unnecessary folders
+# Disallow sensitive or non-public folders
 Disallow: /admin/
 Disallow: /login/
 Disallow: /scripts/
-Disallow: /js/
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /private/
 
-# Prevent indexation of certain file types
+# Optional: if JS is needed for rendering, do not block this
+# Disallow: /js/   ← comment this out if critical scripts are here
+
+# Disallow certain file types
 Disallow: /*.cgi$
 Disallow: /*.php$
 Disallow: /*.inc$
 Disallow: /*.json$
-Disallow: /js/sw.js
 
-# Block internal search results (optional)
+# If using PWA features, allow sw.js
+# Disallow: /js/sw.js  ← comment this out if sw.js is important
+
+# Prevent indexing of internal search pages (optional)
 Disallow: /search
 
-# Optional: block query strings (comment if not needed)
+# Optional: block query parameters if duplicate content exists
 # Disallow: /*?*
 
-# Sitemap location
+# Specify sitemap and preferred domain
 Sitemap: https://moneymystic.codes/sitemap.xml
 Host: moneymystic.codes
 
-# Crawl-delay for specific bots
+# Crawl delays for specific bots
 User-agent: AhrefsBot
 Crawl-delay: 10
 
 User-agent: SemrushBot
 Crawl-delay: 5
 
-# Specific permissions for major bots
+# Major bots - allow image/news indexing
 User-agent: Googlebot-Image
 Allow: /
 

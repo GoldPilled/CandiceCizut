@@ -88,6 +88,8 @@ Redistribution, commercial use, or derivative works are strictly prohibited.
 │       ├── millions.png
 │       ├── offline.avif
 │       ├── offline.png
+│       ├── og.avif
+│       ├── og.png
 │       ├── patreon.avif
 │       ├── patreon.png
 │       ├── screenshots
@@ -97,7 +99,17 @@ Redistribution, commercial use, or derivative works are strictly prohibited.
 │       │   └── screenshot2.png
 │       ├── sorry.avif
 │       └── sorry.png
+├── bitcoin.html
 ├── blog.html
+├── blogposts
+│   ├── bitcoin-crypto-blockchain.html
+│   ├── is-money-evil-or-energy.html
+│   ├── ready-to-awaken.html
+│   ├── real-ascension-is-internal.html
+│   ├── religion-school-enslavement.html
+│   ├── self-help-is-a-lie.html
+│   └── spiritual-awakening-signs.html
+├── contact.html
 ├── css
 │   ├── all.min.css
 │   ├── brands.min.css
