@@ -1,10 +1,8 @@
 {
   "rewrites": [
     { "source": "/go/masteraffiliateprofits1", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=easyhits" },
-    { "source": "/go/masteraffiliateprofits2", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=european
-" },
-    { "source": "/go/masteraffiliateprofits3", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=leadsleap
-" },
+    { "source": "/go/masteraffiliateprofits2", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=european" },
+    { "source": "/go/masteraffiliateprofits3", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=leadsleap" },
     { "source": "/go/masteraffiliateprofits4", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=traffnet" },
     { "source": "/go/masteraffiliateprofits5", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=youtube" },
     { "source": "/go/masteraffiliateprofits6", "destination": "https://masteraffiliateprofits.com/tdf/NOll4A?tid=facebook" },
